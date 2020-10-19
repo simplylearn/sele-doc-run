@@ -4,7 +4,7 @@ pipeline{
 	stages{
 		stage("Pull latest Image"){
 			steps{
-				sh ' docker pull doc20001/selenium-dcoker'
+				sh ' docker pull doc20001/selenium-docker'
 			}
 
 		}
