@@ -26,4 +26,4 @@ services:
       - HUB_HOST=hub
       - MODULE=testng.xml
     volumes:
-      - ./output:/usr/share1/learn/test-output
+      - ./output/testng-result:/usr/share1/learn/test-output
