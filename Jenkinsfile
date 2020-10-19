@@ -13,7 +13,7 @@ pipeline{
 		stage("Run test"){
 			steps{
 
-				sh "docker-compose up testng"
+				sh "docker-compose up testng-module"
 			}
 		}
 		
